@@ -1,57 +1,63 @@
 # 🏠 Tom Ricke's Homelab
 
-Welcome to my personal IT Homelab! This repo documents the projects, labs, and tools I'm using to learn and grow my skills in cloud computing, networking, security, and Linux administration.
+Welcome to my personal IT homelab. This repository documents hands-on projects I use to develop practical skills in Windows Server administration, Active Directory, networking, security, Linux, virtualization, and cloud computing.
 
 ---
 
 ## 🚀 About Me
 
-- 🎖️ Retired Air Force (19 years)
-- 🎓 BAS in IT at WGU
-- 📚 Currently studying: AWS CCP, Network+, Security+, Linux+
-- 🛠️ Building out a full homelab for learning and certification prep
-- 💡 Looking to transition into federal IT or help desk/sysadmin roles
+- 🎖️ Retired U.S. Air Force — 20 years of service
+- 🎓 Pursuing a BAS in Information Technology at Western Governors University (WGU)
+- 📜 Certifications: CompTIA A+, Network+, Security+, ITIL 4, and AWS Certified Cloud Practitioner
+- 🛠️ Building hands-on experience through virtualized servers, networking, Windows administration, Linux, and cloud labs
+- 💡 Pursuing IT support, network operations, and junior systems administration opportunities
 
 ---
 
 ## 🧪 Labs & Projects
 
-| Project | Description |
-|--------|-------------|
-| [pfSense VLAN Lab](./vlan-lab.md) | Setup of segmented networks using pfSense and VirtualBox |
-| [Ubuntu Server Setup](./ubuntu-server.md) | Installing and configuring a basic Linux server |
-| [Windows 10 VM Hardening](./win10-hardening.md) | Disabling unnecessary services, local group policy configs |
-| [Snort IDS Lab](./snort-lab.md) | Building a basic intrusion detection system |
-| [Cloud Labs](./aws-cloud-notes.md) | AWS SkillBuilder and CLI exploration |
+| Project | Description | Status |
+|---|---|---|
+| [Active Directory Lab](./active-directory-lab/) | Windows Server 2022 AD DS deployment, domain controller configuration, DNS, and planned client administration | 🚧 In Progress |
+| pfSense Network Lab | Segmented virtual networking, routing, NAT, and firewall practice using pfSense and VirtualBox | 📝 Documentation Planned |
+| Ubuntu Server Setup | Linux server installation, SSH administration, networking, and Pi-hole DNS filtering | 📝 Documentation Planned |
+| Windows Client Administration | Windows VM configuration, troubleshooting, permissions, and administration practice | 📝 Documentation Planned |
+| AWS Labs | Hands-on AWS practice involving EC2, S3, IAM, and cloud fundamentals | 📝 Documentation Planned |
 
 ---
 
-## 🧰 Tools I Use
+## 🧰 Technologies & Tools
 
-- 🖥️ VirtualBox
-- 🌐 pfSense Firewall
-- 🐧 Ubuntu Server
-- 🪟 Windows 10 Pro
-- 🛡️ Snort IDS
-- ☁️ AWS Free Tier
-
----
-
-## 📸 Screenshots
-
-I include screenshots in each lab doc to show setup, configs, and results.
+- 🪟 Windows Server 2022
+- 🗂️ Active Directory Domain Services
+- 🌐 DNS and DHCP
+- 🖥️ Oracle VirtualBox
+- 🔥 pfSense
+- 🐧 Ubuntu Server / Linux
+- 🔐 SSH
+- ☁️ AWS
+- ⚙️ PowerShell
+- 🛡️ Security and network troubleshooting tools
 
 ---
 
-## 📁 Folder Structure
+## 📸 Documentation Approach
 
-```plaintext
+Each documented project focuses on the **objective, configuration, verification, troubleshooting, and lessons learned**. Screenshots are used selectively to show meaningful configuration milestones and evidence of hands-on work rather than every individual mouse click.
+
+---
+
+## 📁 Repository Structure
+
+```text
 homelab/
 ├── README.md
-├── vlan-lab.md
-├── ubuntu-server.md
-├── aws-cloud-notes.md
-├── images/
-│   └── pfsense-vlan.png
-└── configs/
-    └── pfsense-backup.xml
+├── active-directory-lab/
+│   ├── README.md
+│   └── images/
+├── pfsense-network-lab/
+├── ubuntu-server/
+└── aws-labs/
+```
+
+> This repository is an evolving portfolio. Projects marked as documentation planned reflect hands-on lab work that will be added as the documentation is completed.
