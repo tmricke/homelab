@@ -6,7 +6,11 @@ This project documents the setup of a basic **Active Directory Domain Services (
 
 The purpose of this lab is to build hands-on experience with Windows Server administration and Active Directory. This stage covers installing the AD DS server role and beginning the promotion of the server to the first domain controller in a new Active Directory forest.
 
-> **Lab status:** AD DS role installed. Server promotion to a domain controller and creation of the `lab.local` forest are in progress.
+> **Lab status:** The `lab.local` domain is available, and three Denver user accounts have been created and verified in ADUC and PowerShell. The deployment screenshots below document the earlier setup stage; the health checks listed below remain a verification plan.
+
+## User Administration Lab
+
+[Create and verify three Active Directory users](user-creation/README.md) — Windows Server 2022 user creation in `_Branches > Denver > Users`, with five screenshots and PowerShell verification.
 
 ## Lab Environment
 
@@ -17,7 +21,7 @@ The purpose of this lab is to build hands-on experience with Windows Server admi
 | Server Name | `DC01` |
 | Server IP | `192.168.10.10` |
 | Server Role | Active Directory Domain Services |
-| Planned Forest / Domain | `lab.local` |
+| Forest / Domain | `lab.local` |
 | DNS | DNS Server installed/configured as part of domain controller promotion |
 
 ## Objectives
@@ -112,10 +116,10 @@ I will also confirm that **Active Directory Users and Computers** and **DNS Mana
 
 ## Next Steps
 
-- Complete the `lab.local` domain controller promotion.
+- Document the remaining domain controller promotion steps.
 - Verify Active Directory and DNS health.
-- Create Organizational Units (OUs).
-- Create test users and security groups.
+- Document the existing Organizational Unit (OU) structure.
+- Extend the completed user-creation exercise with security groups.
 - Configure group membership and permissions.
 - Install and configure DHCP.
 - Join Windows 10/11 client VMs to the domain.
