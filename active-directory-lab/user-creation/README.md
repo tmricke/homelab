@@ -1,4 +1,4 @@
-# Active Directory User Creation Lab
+# Part 2: User Creation and Verification
 
 ## Overview
 
@@ -8,7 +8,7 @@ The objective was to practice creating users in the correct organizational unit 
 
 > **Lab status:** All three users were created in the Denver Users OU and verified in ADUC and PowerShell. This exercise documents personal lab practice, not production administration.
 
-[Back to the Active Directory lab](../README.md) · [Continue to security groups and Alice's Helpdesk membership](../README.md#security-groups-and-membership)
+[Previous: Part 1 — Server Setup](../server-setup/README.md) · [Lab overview](../README.md) · [Next: Part 3 — Security Groups](../security-groups/README.md)
 
 ## Lab Environment
 
@@ -117,3 +117,7 @@ The ADUC view confirms the accounts' placement in the selected OU, and the Power
 ### Project Note
 
 This exercise was performed in a personal VirtualBox homelab for learning and skills development. The screenshots document the actual user-creation workflow and verification results.
+
+---
+
+[Previous: Part 1 — Server Setup](../server-setup/README.md) · [Lab overview](../README.md) · [Next: Part 3 — Security Groups](../security-groups/README.md)
