@@ -8,7 +8,7 @@ The objective was to practice creating users in the correct organizational unit 
 
 > **Lab status:** All three users were created in the Denver Users OU and verified in ADUC and PowerShell. This exercise documents personal lab practice, not production administration.
 
-[Back to the Active Directory lab](../README.md)
+[Back to the Active Directory lab](../README.md) · [Continue to security groups and Alice's Helpdesk membership](../README.md#security-groups-and-membership)
 
 ## Lab Environment
 

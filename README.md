@@ -18,7 +18,7 @@ Welcome to my personal IT homelab. This repository documents hands-on projects I
 
 | Project | Description | Status |
 |---|---|---|
-| [Active Directory Lab](./active-directory-lab/) | Windows Server 2022 AD DS deployment, user creation, PowerShell verification, and planned client administration | 🚧 In Progress |
+| [Active Directory Lab](./active-directory-lab/) | Windows Server 2022 AD DS deployment, user creation, PowerShell verification, and [security groups and membership](./active-directory-lab/README.md#security-groups-and-membership) | 🚧 In Progress |
 | pfSense Network Lab | Segmented virtual networking, routing, NAT, and firewall practice using pfSense and VirtualBox | 📝 Documentation Planned |
 | Ubuntu Server Setup | Linux server installation, SSH administration, networking, and Pi-hole DNS filtering | 📝 Documentation Planned |
 | Windows Client Administration | Windows VM configuration, troubleshooting, permissions, and administration practice | 📝 Documentation Planned |
