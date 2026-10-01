@@ -1,6 +1,6 @@
 # Part 3: Security Groups and Membership
 
-[Previous: Part 2 — User Creation](../user-creation/README.md) · [Lab overview](../README.md)
+[Previous: Part 2 — User Creation](../user-creation/README.md) · [Lab overview](../README.md) · [Next: Part 4 — Client Domain Joins](../client-domain-join/README.md)
 
 Building on the [user-creation lab](../user-creation/README.md), I organized role groups centrally and added Alice Johnson to Helpdesk using **Active Directory Users and Computers (ADUC)**. This exercise demonstrates directory organization, group configuration, and membership administration as a foundation for group-based access.
 
@@ -78,4 +78,4 @@ No resource ACL changes, group nesting, or successful access tests are claimed h
 
 ---
 
-[Previous: Part 2 — User Creation](../user-creation/README.md) · [Lab overview](../README.md)
+[Previous: Part 2 — User Creation](../user-creation/README.md) · [Lab overview](../README.md) · [Next: Part 4 — Client Domain Joins](../client-domain-join/README.md)
